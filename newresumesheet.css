@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'champagne';
+  src: url(champagneandlimobold.ttf);
+  font-style:normal;
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'champagne';
+  src: url(champagneandlimosbolditalic.ttf);
+  font-style:italic;
+  font-weight:normal;
+}
+html {
+  background: url(images/pinksun.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+div input{
+  transform: scale(0.5, 0.5);
+  border: 7px solid #BA07BB;
+  border-radius: 50%;
+  background-color: #BA07BB;
+  position: relative;
+}
+
+div img:hover{
+  opacity: 0.4;
+}
+div img:hover +h3 {
+  opacity:1.0;
+}
+div h3{
+  color: #BA07BB;
+  position: absolute;
+  width: 100%;
+  top:300px;
+  left:0;
+  opacity:0.0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+article {
+  font-family: 'champagne';
+  text-align: center;
+
+}
+main {
+  font-family: 'champagne';
+  text-align: center;
+  background-color: rgba(247,70,125,0.5);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  max-width: 700px;
+  border-radius: 25px;
+  display: none;
+}
+aside {
+  font-family: 'champagne';
+  text-align: center;
+
+}
+footer {
+  font-family: 'champagne';
+  text-align: center;
+  background-color: rgba(24,23,54,0.5);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  max-width: 700px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+header {
+  font-family: 'champagne';
+  text-align: center;
+  color: #BA07BB;
+  text-shadow: 1px black;
+}
+header h1{
+  color:inherit;
+  text-align: center;
+  word-wrap: break-word;
+  width: 60%;
+  margin: 0 auto;
+  text-shadow: 2px 2px 5px #120F24;
+}
+a:link {
+  color: #F7467D;
+  text-shadow: 3px black;
+}
+a:visited {
+  color: #B210C5;
+}
